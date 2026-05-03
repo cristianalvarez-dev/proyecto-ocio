@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto – Proyecto Ocio</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <span class="logo-texto">Proyecto <strong>Ocio</strong></span>
+                <p class="logo-slogan">Experiencias que conectan personas</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="nosotros.html">Quiénes somos</a></li>
+                    <li><a href="contacto.html" class="activo">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="contenedor">
+            <h1 class="animar"><span>Contacto</span></h1>
+            <p class="animar animar-2">¿Tienes alguna pregunta o quieres reservar una actividad? Escríbenos y te respondemos en menos de 24 horas.</p>
+        </div>
+    </section>
+
+    <section class="segmentos">
+        <div class="contenedor">
+            <div class="contacto-grid">
+
+                <div class="formulario animar animar-2">
+                    <h2>Envíanos un mensaje</h2>
+                    <form action="#" method="post">
+                        <div class="campo">
+                            <label for="nombre">Nombre y apellidos *</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="campo">
+                            <label for="email">Correo electrónico *</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="campo">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="612 345 678">
+                        </div>
+                        <div class="campo">
+                            <label for="tipo">Tipo de grupo *</label>
+                            <select id="tipo" name="tipo" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="particular">Particular adulto</option>
+                                <option value="familia">Familia</option>
+                                <option value="jovenes">Grupo de jóvenes</option>
+                                <option value="colegio">Colegio</option>
+                                <option value="empresa">Empresa</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="actividad">Actividad de interés</label>
+                            <select id="actividad" name="actividad">
+                                <option value="">Selecciona una actividad</option>
+                                <option value="senderismo">Ruta de senderismo familiar</option>
+                                <option value="pintura">Taller de pintura para niños</option>
+                                <option value="gymkhana">Gymkhana deportiva</option>
+                                <option value="team">Team building empresarial</option>
+                                <option value="ambiental">Taller educación ambiental</option>
+                                <option value="escape">Escape room al aire libre</option>
+                                <option value="torneo">Torneo deportes alternativos</option>
+                                <option value="teatro">Taller de teatro y expresión</option>
+                                <option value="otra">Otra / No sé todavía</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué necesitas, número de personas, fechas aproximadas..." required></textarea>
+                        </div>
+                        <button type="submit" class="boton-enviar">Enviar mensaje</button>
+                    </form>
+                </div>
+
+                <div class="info-contacto animar animar-3">
+                    <div class="info-item">
+                        <p class="info-item-titulo">Dirección</p>
+                        <p>Calle Falsa, 123<br>15010 A Coruña</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-item-titulo">Teléfono</p>
+                        <p>666 66 66 66</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-item-titulo">Correo electrónico</p>
+                        <p>info@proyectoocio.es</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-item-titulo">Horario de atención</p>
+                        <p>Lunes a viernes<br>9:00 – 18:00 h</p>
+                    </div>
+                    <div class="info-item">
+                        <p class="info-item-titulo">Tiempo de respuesta</p>
+                        <p>Respondemos en menos de 24 horas en días laborables.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedor footer-grid">
+            <div class="footer-col">
+                <span class="logo-texto">Proyecto <strong>Ocio</strong></span>
+                <p>Experiencias que conectan personas.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Páginas</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="actividades.html">Actividades</a></li>
+                    <li><a href="nosotros.html">Quiénes somos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>info@proyectoocio.es</p>
+                <p>666 66 66 66</p>
+                <p>Calle Falsa, 123</p>
+                <p>Lun–Vie, 9:00–18:00</p>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; 2025 Proyecto Ocio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
